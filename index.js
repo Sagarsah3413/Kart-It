@@ -42,7 +42,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingListEl(currentItem);
     }
   } else {
-    shoppingListEl.innerHTML = `<img src="assets/emptycart.png" alt="Hey there....your cart looks empty!">`;
+    shoppingListEl.innerHTML = "Hey there....your cart looks empty!";
   }
 });
 
